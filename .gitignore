@@ -1,0 +1,14 @@
+# Latex Docs
+*.aux
+*.bbl
+*.bib
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.tex
+*fdb_latexmk
+figures/
+
+# Environment files
+GeneralAstronomy/
