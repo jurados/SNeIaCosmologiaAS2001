@@ -15,7 +15,7 @@ El volumen de datos generado por surveys como el Zwicky Transient Facility (ZTF)
 
 - Determinar el brillo máximo aparente ($m_{max}$) y el redshift ($z$) de una muestra de supernovas como parámetros de entrada para la medición de distancia.
 
-- Aplicar el módulo de distancia para calcular la distancia de luminosidad ($d_L$) de cada su pernova, utilizando las SNIa como candelas estándar con una magnitud absoluta conocida($M$).
+- Aplicar el módulo de distancia para calcular la distancia de luminosidad ($d_L$) de cada supernova, utilizando las SNIa como candelas estándar con una magnitud absoluta conocida($M$).
 
 - Realizar una regresión lineal entre la velocidad de recesión ($v$) y la distancia de luminosidad ($d_L$) para estimar el valor de la Constante de Hubble ($H_0$) y su incertidumbre.
 
