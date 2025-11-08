@@ -37,7 +37,7 @@ Se obtuvo el valor de la constante de Hubble usando los datos de supernovas Tipo
 |   r    | 56.31            | 4.9   | 23%   |
 
 Usando como referencia el valor de $H_o = 73.04 \pm 1.04 \, \text{km s}^{−1}\text{Mpc}^{−1}$
-[Riess2008](https://arxiv.org/abs/2112.04510), se observa que los valores obtenidos están por debajo del valor aceptado, aunque dentro de un rango razonable considerando las fuentes de error involucradas en el análisis.
+([Riess2008](https://arxiv.org/abs/2112.04510)), se observa que los valores obtenidos están por debajo del valor aceptado, aunque dentro de un rango razonable considerando las fuentes de error involucradas en el análisis.
 
 El gráfico de dispersión de velocidad vs distancia para ambos filtros se muestra a continuación:
 
