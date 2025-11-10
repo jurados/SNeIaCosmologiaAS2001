@@ -2,9 +2,9 @@
 
 > La actividad puede ser encontrarse a continuación: [Actividad.pdf](main.pdf) 
 
-Las supernovas (SN) son explosiones energéticas de estrellas en las últimas etapas de su vida. Se clasifican en dos tipos generales: las de colapso de núcleo (producidas por estrellas de alta masa) y las de colapso termonuclear o Tipo Ia.
+Las supernovas (SNs) son explosiones energéticas de estrellas en las últimas etapas de su vida. Se clasifican en dos tipos generales: las de colapso de núcleo (producidas por estrellas de alta masa) y las de colapso termonuclear o Tipo Ia.
 
-Observaciones detalladas de SN han sido cruciales para el descubrimiento de la expansión acelerada del universo, la comprensión de la formación de elementos pesados y la estimación de distancias a galaxias lejanas. El hecho de por qué las supernovas Tipo Ia pueden ser usadas como candelas estándar para medir distancias se debe a que, al ser producidas por el mismo mecanismo de explosión termonuclear al alcanzar la Masa de Chandrasekhar ($1.4M_\odot$), poseen una luminosidad intrínseca muy similar. Este brillo aparente se mide a través de curvas de luz, que muestran la variación del brillo en función del tiempo.
+Observaciones detalladas de SNs han sido cruciales para el descubrimiento de la expansión acelerada del universo, la comprensión de la formación de elementos pesados y la estimación de distancias a galaxias lejanas. El hecho de por qué las supernovas Tipo Ia pueden ser usadas como candelas estándar para medir distancias se debe a que, al ser producidas por el mismo mecanismo de explosión termonuclear al alcanzar la Masa de Chandrasekhar ($1.4M_\odot$), poseen una luminosidad intrínseca muy similar [Howell 2011](https://www.nature.com/articles/ncomms1344). Este brillo aparente se mide a través de curvas de luz, que muestran la variación del brillo en función del tiempo.
 
 Al obtener el punto máximo de brillo en la curva de luz de una supernova Tipo Ia y el redshift de su galaxia anfitriona, es posible calcular la distancia a la supernova y, a partir de una muestra significativa, estimar la constante de Hubble ($H_0$) usando la relación distancia-luminosidad.
 
@@ -22,7 +22,7 @@ El volumen de datos generado por surveys como el Zwicky Transient Facility (ZTF)
 - Comparar el método y los resultados obtenidos con el trabajo original de Hubble (1929) para entender la evolución de las escalas de distancia cosmológica.
 
 ## Datos
-En este ejercicio se uso datos públicos del telescopio ZTF usando el broker ALeRCE para extraer los datos. Específicamente una muestra de supernovas Tipo Ia con curvas de luz en los filtros $g$ y $r$, junto con sus redshifts y distancias estimadas a partir de la luz de la galaxia anfitriona.
+En este ejercicio se uso datos públicos del telescopio ZTF usando el broker ALeRCE para extraer los datos. Específicamente una muestra de supernovas Tipo Ia con curvas de luz en los filtros $g$ y $r$, junto con sus redshifts y distancias estimadas a partir de la luz de la galaxia anfitriona. Las supernovas fueron clasificadas usando el clasificador de curvas de luz de ALeRCE ([Sánchez-Sáez et al. 2021](https://ui.adsabs.harvard.edu/abs/2021AJ....161..141S/abstract)).
 
 El subconjunto de datos que fue usado en este ejercicio puede ser visto aquí:
 
@@ -47,6 +47,8 @@ El gráfico de dispersión de velocidad vs distancia para ambos filtros se muest
 - Förster, F., Cabrera-Vives, G., Castillo-Navarrete, E., Estévez, P. A., Sánchez-Sáez, P., et al. (2021). The Automatic Learning for the Rapid Classification of Events (ALeRCE) Alert Broker., 161(5):242.
 
 - Hubble, E. (1929). A relation between distance and radial velocity among extra-galactic nebulae. Proceedings of the National Academy of Sciences, 15(3):168–173.
+
+- Howell, D. A. (2011). Type Ia supernovae as stellar endpoints and cosmological tools. Nature Communications, 2(1):350.
 
 - Riess, A. G., Yuan, W., Macri, L. M., Scolnic, D., Brout, D., Casertano, S., Jones, D. O., Murakami, Y., Anand, G. S., Breuval, L., Brink, T. G., Filippenko, A. V., Hoffmann, S., Jha, S. W., D’arcy Kenworthy, W., Mackenty, J., Stahl, B. E., and Zheng, W. (2022). A comprehensive measurement of the local value of the hubble constant with 1 km s1 mpc1 uncertainty from the hubble space telescope and the sh0es team. The Astrophysical Journal Letters, 934(1):L7.
 
