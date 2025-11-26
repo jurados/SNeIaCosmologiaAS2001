@@ -14,4 +14,4 @@
 figures/images/
 
 # Environment files
-GeneralAstronomy/
+astro/*
